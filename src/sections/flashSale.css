@@ -1,0 +1,8 @@
+.flashParent {
+    background: linear-gradient(90.11deg, #FA4343 29.12%, #FE8900 129.46%);
+    /* height: 3em; */
+}
+
+.flashParent .child1 {
+    height: 3em;
+}

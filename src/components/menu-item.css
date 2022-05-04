@@ -1,0 +1,20 @@
+.menuItemParent {
+    background-color: white;
+    /* color: black; */
+}
+
+.menuItemParent img {
+    background: #E5E5E5;
+    margin-right: 1em;
+    width: fit-content;
+}
+
+.menuItemParent a {
+    color: #000;
+    font-family: 'Publica-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}

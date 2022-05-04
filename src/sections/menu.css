@@ -1,0 +1,12 @@
+.menuParent {
+    background-color: white;
+    padding: 1em;
+}
+
+.menuParent .child1 {
+    width: 80%;
+}
+
+.menuParent img:hover {
+    cursor: pointer;
+}

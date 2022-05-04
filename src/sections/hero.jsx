@@ -12,7 +12,7 @@ function Hero() {
             <div className="row gchild1">
               <img src={pic1} alt="" />
             </div>
-            <div className="row mt-3 gchild2">
+            <div className="row mt-5 gchild2">
               <img src={pic3} alt="" />
             </div>
           </div>
