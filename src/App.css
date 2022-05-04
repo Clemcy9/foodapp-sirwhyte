@@ -1,4 +1,29 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Heebo;
+  src: url('./resources/fonts/Heebo/static/Heebo-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Publica-Sans;
+  src: url('./resources/fonts/publicasans/PublicaSans-Medium.otf');
+}
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +61,5 @@
     transform: rotate(360deg);
   }
 }
+
+*/

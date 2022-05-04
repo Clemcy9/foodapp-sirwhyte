@@ -1,0 +1,29 @@
+/* @font-face {
+    font-family: Publica-Sans;
+    src: url('../resources/fonts/publicasans/PublicaSans-Medium.otf');
+} */
+
+.parentHero {
+    padding-top: 2.4em;
+}
+
+.parentHero .child1>.gchild2 img {
+    border-radius: 22px;
+    /* border: 2px red solid; */
+}
+
+.parentHero p {
+    font-family: 'Publica-Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    /* text-align: center; */
+
+    color: #727272;
+
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
