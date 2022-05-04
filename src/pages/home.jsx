@@ -5,6 +5,8 @@ import Hero from "../sections/hero";
 import MenuItem from "../components/menu-item";
 import Menu from "../sections/menu";
 import FlashSale from "../sections/flashSale";
+import Item from "../components/items";
+import Promo from "../sections/promo";
 
 function Home() {
   return (
@@ -13,9 +15,13 @@ function Home() {
       <div className="container">
         <Hero></Hero>
         {/* <MenuItem></MenuItem> */}
-        <Menu></Menu>
       </div>
+      <Menu></Menu>
       <FlashSale></FlashSale>
+      {/* <Item></Item> */}
+      <div className="container">
+        <Promo></Promo>
+      </div>
     </div>
   );
 }

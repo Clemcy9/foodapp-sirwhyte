@@ -14,7 +14,7 @@ function Nav() {
         </div>
         <div>
           <a href="#">
-            <img src={car} alt="" />
+            <img src={car} className="img-fluid" alt="" />
           </a>
         </div>
       </div>
