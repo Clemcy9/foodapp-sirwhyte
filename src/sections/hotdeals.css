@@ -1,0 +1,44 @@
+.hotdealsParent>.child2 button {
+    background-color: #125252;
+    border-radius: 4px;
+    width: 100%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.hotdealsParent>.child1>div {
+    /* background: #FFF2ED; */
+    height: 106px;
+}
+
+.hotdealsParent>.child1 {
+    background: #FFF2ED;
+    padding: 0 3em;
+}
+
+.hotdealsParent>.child1>div>p {
+    font-family: 'Publica-Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #121212;
+}
+
+.hotdealsParent>.child2 {
+    background-color: white;
+}
+
+.hotdealsParent>.child1>div>a {
+    font-family: 'Publica-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #D55015;
+}

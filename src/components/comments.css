@@ -1,0 +1,56 @@
+.commentParent {
+    /* width: 552px; */
+    /* width: fit-content; */
+    /* height: 130px; */
+    height: fit-content;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.commentParent>.child2 {
+    width: 80%;
+}
+
+.commentParent h6,
+.commentParent p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #121212;
+    margin-bottom: 2px;
+}
+
+.commentParent h6 {
+    font-weight: 700;
+}
+
+.commentParent .gchild1 {
+    width: 30%;
+}
+
+@media screen and (min-width:1200px) {
+    .commentParent {
+        width: 552px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .commentParent {
+        width: 520px;
+
+    }
+}
+
+@media screen and (max-width:545px) {
+    .commentParent {
+        width: 95%;
+
+    }
+}

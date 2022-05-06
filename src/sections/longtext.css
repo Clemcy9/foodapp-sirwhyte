@@ -1,0 +1,20 @@
+.longtextParent p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-justify: newspaper;
+
+}
+
+.longtextParent .child1 {
+    background-color: white;
+    padding: 3em;
+    height: fit-content;
+}
+
+.longtextParent {
+    background-color: white;
+}

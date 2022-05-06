@@ -10,14 +10,14 @@ function Hero() {
         <div className="row">
           <div className="col child1">
             <div className="row gchild1">
-              <img src={pic1} alt="" />
+              <img src={pic1} className="img-fluid" alt="" />
             </div>
             <div className="row mt-5 gchild2">
-              <img src={pic3} alt="" />
+              <img src={pic3} className="img-fluid" alt="" />
             </div>
           </div>
           <div className="col child2">
-            <img src={pic2} alt="" />
+            <img src={pic2} className="img-fluid" alt="" />
           </div>
         </div>
         <div className="row">

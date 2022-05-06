@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 .itemParent {
     width: 240px;
@@ -38,6 +36,31 @@
     position: absolute;
     /* width: 35px; */
     /* height: 12px; */
-    left: 175px;
+    left: 168px;
     top: 198px;
+}
+.itemParent1 .content p {
+    font-family: 'Publica-Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #727272;
+    padding: 0;
+    margin: 0;
+}
+
+.itemParent1 {
+    width: 240px;
+    /* border: red 2px solid; */
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 240px;
+    /* border: 2px red solid; */
+
+
 }

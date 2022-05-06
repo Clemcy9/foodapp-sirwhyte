@@ -6,152 +6,71 @@ import oat from "../resources/images/oat.png";
 
 function Promo({ heading, amount, quauntity }) {
   return (
-    <div className="container mx-auto promoParent d-flex  justify-content-between row">
-      <div className="content ">
-        <Item title="banana" pics={banana} rating="4.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
+    <div className="container mx-auto  promoParent justify-content-center row">
+      <Item title="tomato" pics={tomato} rating="3.5">
+        <div className="progress" style={{ height: "10px" }}>
+          <div
+            className="progress-bar bg-danger"
+            style={{ width: "7%", height: "10px" }}
+          ></div>
         </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
+      </Item>
+      <Item title="oat" pics={oat} rating="3.5">
+        <div className="progress" style={{ height: "10px" }}>
+          <div
+            className="progress-bar bg-danger"
+            style={{ width: "30%", height: "10px" }}
+          ></div>
+        </div>
+      </Item>
+      <Item title="banana" pics={banana} rating="3">
+        <div className="progress" style={{ height: "10px" }}>
+          <div
+            className="progress-bar bg-danger"
+            style={{ width: "50%", height: "10px" }}
+          ></div>
+        </div>
+      </Item>
+      <Item title="tomato" pics={tomato} rating="2.5">
         <div className="progress" style={{ height: "10px" }}>
           <div
             className="progress-bar bg-danger"
             style={{ width: "70%", height: "10px" }}
           ></div>
         </div>
-      </div>
-      <div className="content ">
-        <Item title="oat" pics={oat} rating="3.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
+      </Item>
+      <Item title="tomato" pics={tomato} rating="3.5">
+        <div className="progress" style={{ height: "10px" }}>
+          <div
+            className="progress-bar bg-danger"
+            style={{ width: "7%", height: "10px" }}
+          ></div>
         </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
+      </Item>
+      <Item title="oat" pics={oat} rating="3.5">
+        <div className="progress" style={{ height: "10px" }}>
+          <div
+            className="progress-bar bg-danger"
+            style={{ width: "30%", height: "10px" }}
+          ></div>
+        </div>
+      </Item>
+      <Item title="banana" pics={banana} rating="3">
+        <div className="progress" style={{ height: "10px" }}>
+          <div
+            className="progress-bar bg-danger"
+            style={{ width: "50%", height: "10px" }}
+          ></div>
+        </div>
+      </Item>
+      <Item title="tomato" pics={tomato} rating="2.5">
         <div className="progress" style={{ height: "10px" }}>
           <div
             className="progress-bar bg-danger"
             style={{ width: "70%", height: "10px" }}
           ></div>
         </div>
-      </div>
-      <div className="content ">
-        <Item title="tomato" pics={tomato} rating="2.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-      <div className="content ">
-        <Item title="banana" pics={banana} rating="4.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-      <div className="content ">
-        <Item title="tomato" pics={tomato} rating="2.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-      <div className="content ">
-        <Item title="oat" pics={oat} rating="3.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-      <div className="content ">
-        <Item title="tomato" pics={tomato} rating="2.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-      <div className="content ">
-        <Item title="banana" pics={banana} rating="4.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-      <div className="content ">
-        <Item title="tomato" pics={tomato} rating="2.5"></Item>
-        <div>
-          <p>{heading} Foreign perboiled rice.</p>
-          <p>{quauntity} 500g</p>
-          <p style={{ color: "#D55015" }}>{amount} N2055</p>
-        </div>
-        <p style={{ margin: "0em" }}>1 items left</p>
-        <div className="progress" style={{ height: "10px" }}>
-          <div
-            className="progress-bar bg-danger"
-            style={{ width: "70%", height: "10px" }}
-          ></div>
-        </div>
-      </div>
-
-      {/* <Item title="tomato" pics={tomato} rating="3.5"></Item>
-      <Item title="oat" pics={oat} rating="3.5"></Item>
-      <Item title="banana" pics={banana} rating="3"></Item>
-      <Item title="tomato" pics={tomato} rating="2.5"></Item>
-      <Item title="banana" pics={banana} rating="4.5"></Item>
-      <Item title="tomato" pics={tomato} rating="3.5"></Item>
-      <Item title="oat" pics={oat} rating="3.5"></Item>
-      <Item title="banana" pics={banana} rating="3"></Item>
-      <Item title="tomato" pics={tomato} rating="2.5"></Item> */}
+      </Item>
     </div>
   );
 }
